@@ -1,3 +1,7 @@
+" ************************************************************************************************ "
+# This file contains the main function for torsion points computation and secret isogeny recovery. # 
+" ************************************************************************************************ "
+
 from sage.all import *
 from isogeny_computations.torsion_handle import Sharing_Data_Computation, Isogeny_Recomputation
 from isogeny_computations.goodprime_parameters_generation import read_params_SIKE
